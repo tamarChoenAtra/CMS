@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.Menu {
+  width: 100%;
+
+  .MenuItem {
+    border-left: 3px solid transparent;
+  }
+
+  .MenuItem.isActive {
+    background-color: $menuitem-active-background-color;
+    border-left: 3px solid $primary-color;
+  }
+}

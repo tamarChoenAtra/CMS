@@ -1,0 +1,45 @@
+.App .AppBar {
+  z-index: 1201 !important;
+  background-color: white !important;
+  color: black !important;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.1) !important;
+  .appbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .appbar-action-buttons {
+    margin-left: -2em !important;
+  }
+  .appbar-profile-button {
+    text-transform: capitalize !important;
+  }
+  .appbar-profile-image {
+    margin-right: 0.4em;
+    color: #DEE9FC;
+    border: 1px solid #DEE9FC;
+    border-radius: 400px;
+    background-color: #618BFE;
+  }
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    img {
+      max-height: 30px;
+    }
+  }
+}
+.appbar-logout-icon {
+  margin-right: 0.5em!important;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  -webkit-transform-origin: 20% 40%; /* Safari 3-8 */
+  transform: rotate(90deg);
+  transform-origin: 20% 40%;
+}
+.appbar-user-modal-item{
+  display: flex!important;
+  align-items: baseline!important;
+  //margin-bottom: -1em!important;
+}

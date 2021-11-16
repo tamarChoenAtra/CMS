@@ -1,0 +1,49 @@
+@import '../../variables.scss';
+
+.PageHeader {
+  .outline-button-disabled {
+    color: #ffffff !important;
+    background-color: #9b9b9b !important;
+  }
+  .no-outline-button-disabled {
+    color: #9b9b9b !important;
+  }
+  button.save-button {
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 400;
+  }
+  button.change-theme-button {
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 400;
+  }
+  button.uat-button {
+    margin-right: 10px;
+  }
+  button.preview-button {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: $primary-color !important ;
+  }
+  button.export-csv-button {
+    text-transform: none;
+    color: #000000;
+    font-weight: 400;
+  }
+  button.uat-date-button {
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 400;
+  }
+  .button-icon {
+    margin-right: 10px;
+  }
+
+  .buttons-container {
+    text-align: right;
+  }
+  .headerButton {
+    margin: 8px;
+  }
+}

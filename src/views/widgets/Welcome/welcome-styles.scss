@@ -1,0 +1,62 @@
+.welcome-page {
+  display: flex;
+  padding: 5%;
+}
+.welcome-page-title-grid {
+  display: flex;
+  justify-content: center;
+  .welcome-page-title {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+}
+.welcome-page-image-grid {
+  display: flex;
+  justify-content: center;
+  .welcome-page-image {
+    width: 50em;
+  }
+}
+.welcome-page-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0 30px;
+}
+.welcome-button-label {
+  text-transform: none !important;
+  font-family: Montserrat !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #000000 !important;
+}
+.welcome-button-icon {
+  margin-right: 0.5em;
+}
+.welcome-button-link {
+  text-decoration: none !important;
+}
+.welcome-button-label:hover {
+  border-radius: 20px !important;
+  background-color: #dde8fb !important;
+  color: #3366ff !important;
+}
+.welcome-page-button {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: 2em 0 1em 0 !important;
+}
+.welcome-page-button-grid {
+  margin: 1em 0 1em 0 !important;
+  width: 240px;
+}

@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  font-size: 12px !important;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit !important;
+}
+body {
+  margin: 0 !important;
+  font-family: 'Montserrat' !important;
+  // font-size: 14px !important;
+  color: #000000 !important;
+  background-color: rgba(51, 102, 255, 0.05) !important;
+  overflow-x: hidden !important;
+}
+@media print {
+  body {
+    background-color: #fff !important;
+  }
+}
+
+#root {
+  height: 100vh !important;
+
+  .unauthenticated {
+    margin: 20px !important;
+    font-size: 16px !important;
+  }
+}
+
+:focus {
+  outline: none !important;
+}

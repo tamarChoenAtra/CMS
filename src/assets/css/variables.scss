@@ -1,0 +1,27 @@
+// Breakpoints
+$break-extra-small: 0;
+$break-small: 600px;
+$break-medium: 960px;
+$break-large: 1280px;
+$break-extra-large: 1920px;
+
+// Colors
+$primary-color: #3366ff;
+$menuitem-active-background-color: rgba($primary-color, 0.2);
+$secondary-color: #7ed321;
+$error-color: #f44336;
+$separator-color: #9b9b9b;
+
+
+/*
+  The following variables can be used in js, jsx by importing this file
+  e.g.
+    import cssVars from '@Assets/css/variables.scss'
+    ...
+    cssVars.primaryColor
+*/
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  errorColor: $error-color;
+}

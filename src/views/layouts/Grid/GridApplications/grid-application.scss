@@ -1,0 +1,49 @@
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 116;
+  height: 100%;
+  min-height: 100;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+.editButton {
+  display: none;
+  width: 5em;
+  height: 2em;
+  border: 1px solid #3366ff;
+  border-radius: 13.4px;
+  background-color: #3366ff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.logoGrid {
+  max-width: 100px;
+  max-height: 75px;
+  position: fixed;
+}
+.element:hover {
+  box-shadow: 0px 0px 25px -5px rgba(0, 0, 0, 0.61);
+  .editButton {
+    display: inline-block;
+    z-index: 1;
+  }
+  .logoGrid {
+    opacity: 0.4;
+    background-color: #ffffff;
+  }
+}
+
+.editButton:hover {
+  cursor: pointer;
+}
